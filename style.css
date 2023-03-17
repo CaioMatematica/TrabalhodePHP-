@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Oswald:wght@700&family=Roboto+Slab:wght@800&display=swap');
 *{
 	margin:0;
 	padding:0;
@@ -27,6 +28,11 @@ a{
 	cursor: pointer;
 }
 h1{
+	font-size: 55px;
+	margin-top: 3.2%;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+
 	font-size: 40px;
 	margin-top: 3.2%;
 	margin-bottom: 1.1%;
@@ -49,11 +55,16 @@ nav{
 }
 .Link a:hover{
 	transition:0.4s ease-in-out;
+	background: rgb(171, 74, 216);
 	background: #f00;
 	padding: 1px;
 	border-radius: 5px;
 	text-decoration: underline;
 	zoom: 120%;
+	color: #fff;
+}
+main{
+	margin-top:70px;
 	color: #888;
 }
 main{
