@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios - Soma - Resultado</title>
+    <title>Exercícios - Triângulo - Resultado</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
         <h1>EXERCÍCIOS PHP</h1>
         <nav>
             <ul>
-            <li class="Link"><a href="./index.html">Home</a></li>
+         <li class="Link"><a href="./index.html">Home</a></li>
          <li class="Link"><a href="soma.html">Soma</a></li>
          <li class="Link"><a href="triangulo.html">Triângulo</a></li>
          <li class="Link"><a href="Pizzaria.html">Pizzaria</a></li>
@@ -26,12 +26,12 @@
     <main>
         <div class="Resultado">
             <?php 
-            $n1 = $_POST['Valor1'];
-            $n2 = $_POST['Valor2'];
+            $b = $_POST['b'];
+            $h = $_POST['h'];
 
-            $r = $n1 + $n2;
+            $a = ($b * $h)/2;
             
-            echo "O valor da soma é:$r";
+            echo "O valor da área é:$a";
             ?><br>
         </div>
     </main>

@@ -98,7 +98,7 @@ main article h3{
 	color: #444;
 }
 main article p,.Input{
-	font-size: 15px;
+	font-size: 18px;
 	color: #333;
 	font-family: 'Nunito', sans-serif;
 }
@@ -118,6 +118,7 @@ main article p,.Input{
 	cursor: pointer;
 	background-color:rgb(80, 233, 80);
 	color: #444;
+	margin-right: 10px;
 }
 .Botoes input:hover{
 	background-color:rgb(171, 74, 216);
@@ -134,4 +135,7 @@ footer{
 	justify-content: center;
 	border-radius: 10px;
 	letter-spacing: 3px;
+	font-size: 15px;
+	color: #333;
+	font-family: 'Nunito', sans-serif;
 }

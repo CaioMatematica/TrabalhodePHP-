@@ -26,12 +26,11 @@
     <main>
         <div class="Resultado">
             <?php 
-            $n1 = $_POST['Valor1'];
-            $n2 = $_POST['Valor2'];
+            $pp = $_POST['pp'];
 
-            $r = $n1 + $n2;
+            $pa = $pp + ($pp * 0.1);
             
-            echo "O valor da soma é:$r";
+            echo "O valor aumentado é:$pa";
             ?><br>
         </div>
     </main>

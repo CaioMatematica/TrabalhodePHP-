@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios PHP - Gasto na pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EXERCÍCIOS PHP</h1>
+        <nav>
+            <ul>
+         <li class="Link"><a href="./index.html">Home</a></li>
+         <li class="Link"><a href="./soma.html">Soma</a></li>
+         <li class="Link"><a href="./triangulo.html">Triângulo</a></li>
+         <li class="Link"><a href="./Pizzaria.html">Pizzaria</a></li>
+         <li class="Link"><a href="./Media.html">Media</a></li>
+         <li class="Link"><a href="./Supermercado.html">Supermercado</a></li>
+         <li class="Link"><a href="./Salario.html">Salário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="./pizzaria.php" method="post">
+            <div class="Input">
+                <label>Pizza:</label>
+                <input type="number" name="pizza" class="Input" required>
+            </div>
+            <div class="Input">
+                <label>Bebidas:</label>
+                <input type="number" name="bebida" class="Input" required>
+            </div>
+            <div class="Input">
+                <label>Sobremesa:</label>
+                <input type="number" name="sobremesa" class="Input" required>
+            </div>
+            <div class="Input">
+                <label>N° de pessoas:</label>
+                <input type="number" name="pessoas" class="Input" required>
+            </div>
+
+            <div class="Botoes">
+                <input type="submit" value="Calcular">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </main>
+    
+    <footer>
+    <p>Caio e Cecília &copy 2023</p>
+    
+    </footer>    
+</body>
+</html>

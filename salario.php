@@ -26,12 +26,12 @@
     <main>
         <div class="Resultado">
             <?php 
-            $n1 = $_POST['Valor1'];
-            $n2 = $_POST['Valor2'];
+            $sb = $_POST['sb'];
+            $d = $_POST['d'];
 
-            $r = $n1 + $n2;
+            $sl = $sb - $d;
             
-            echo "O valor da soma é:$r";
+            echo "O salário líquido é:$sl";
             ?><br>
         </div>
     </main>
