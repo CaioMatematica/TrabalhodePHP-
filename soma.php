@@ -24,21 +24,17 @@
     </header>
 
     <main>
-        <form action="./soma.php" method="post">
-            <div class="Input">
-                <label>1° Valor:</label>
-                <input type="number" name="Valor1" class="Input">
-            </div>
-            <div class="Input">
-                <label>2° Valor:</label>
-                <input type="number" name="Valor2" class="Input">
-            </div>
+        <h3>Resultado</h3>
+        <div class="Resultado">
+            <?php 
+            $n1 = $_POST['Valor1'];
+            $n2 = $_POST['Valor2'];
 
-            <div class="Botoes">
-                <input type="submit" value="Calcular">
-                <input type="reset" value="Limpar">
-            </div>
-        </form>
+            $r = $n1 + $n2;
+            
+            echo "O valor da soma é:$r";
+            ?>
+        </div>
     </main>
     
     <footer>

@@ -14,6 +14,11 @@ ul{
 	width: 100%;
 	margin-left: 0.2%;
 }
+input{
+	box-shadow: 0 0 0 0;
+	outline: 0;
+	border: 0 none;
+}
 header{
 	display: flex;
 	width: 100%;
@@ -56,7 +61,6 @@ nav{
 .Link a:hover{
 	transition:0.4s ease-in-out;
 	background: rgb(171, 74, 216);
-	background: #f00;
 	padding: 1px;
 	border-radius: 5px;
 	text-decoration: underline;
@@ -75,20 +79,50 @@ main{
 	background-color: #aefab4;
 	border-radius: 12px;
 }
-main article{
+main article,main form,main .Resultado{
 	width:100%;
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+.Input input{
+	background: #aefab4;
+	border-bottom: 3px solid #444;
+}
 main article h3{
 	font-size: 22.5px;
 	margin-top: 10px;
 	margin-bottom: 5px;
+	font-family: 'Roboto Slab', serif;
+	color: #444;
 }
-main article p{
+main article p,.Input{
 	font-size: 15px;
+	color: #333;
+	font-family: 'Nunito', sans-serif;
+}
+.Input{
+	margin-bottom: 8px;
+}
+.Botoes{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.Botoes input{
+	width: 85px;
+	height: 45px;
+	border-radius: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+	background-color:rgb(80, 233, 80);
+	color: #444;
+}
+.Botoes input:hover{
+	background-color:rgb(171, 74, 216);
+	color: #fff;
+	transition: 0.2s ease-in-out;
 }
 footer{
 	background:  #aefab4;
@@ -99,5 +133,5 @@ footer{
 	display: flex;
 	justify-content: center;
 	border-radius: 10px;
-	letter-spacing: 3px   ;
+	letter-spacing: 3px;
 }
